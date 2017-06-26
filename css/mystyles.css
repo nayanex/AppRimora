@@ -1,0 +1,229 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.dropdown-header {
+    color:#333;
+    font-size: 18px;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:300;
+}
+
+.row-footer{
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    background-color: rgba(46, 109, 164, 0.24);
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #7986CB ;
+    color:floralwhite;
+    background-image: url(../img/main-jumbotron.jpg) ;
+}
+
+.jumbotron-wpp {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #7986CB ;
+    color:floralwhite;
+    background-image: url(../img/whatsapp-jumbo.png) ;
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    font-size: 150%;
+}
+
+.btn-primary:focus, .btn-primary:hover {
+    background-color: #265a88;
+    background-position: 0 -15px;
+    font-size: 20px;
+}
+
+.btn-info:focus, .btn-info:hover {
+    font-size: 20px;
+}
+
+.btn-success:focus, .btn-success:hover {
+    font-size: 20px;
+}
+
+.btn-primary {
+	font-size: 18px;
+}
+
+.btn-info {
+	font-size: 18px;
+}
+
+.btn-success {
+	font-size: 18px;
+}
+
+address{
+    font-size:120%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+.h5, h5 {
+    font-size: 20px;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-inverse {
+    background: #F44336;
+    border-color: #F44336;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    color:#ffffff;
+    background-color: rgba(244, 67, 54, 0.56);
+    font-size: 17px;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color: #ffffff;
+    background: #a94442;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #d9534f;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+    color: #F44336;
+}
+
+.jumbotron p {
+    
+    color: #351515;
+}
+
+
+.jumbotron-wpp .h1, .jumbotron h1 {
+    font-size: 400%;
+    }
+
+.jumbotron-wpp p {
+    
+    font-size: 200%;
+}
+
+
+
+.jumbotron p:nth-child(3){
+    background: rgba(0,0,0,.075);
+    
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #d9534f;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+    font-size: 180%;
+    text-shadow: -1px 0 20px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
